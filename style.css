@@ -91,13 +91,14 @@ nav{
 }
 .email_and_get-started{
     display: flex;
+    gap: 10px;
 }
 .email_input{
-    border: 2px solid white;
+    border: 1px solid white;
     background-color: rgba(0, 0, 0, 0.409);
     width: 100%;
     justify-items: left;
-    padding: 16px 24px 8px;
+    padding: 10px 22px 8px;
     border-radius: 5px;
 }
 .email_input input{
@@ -107,8 +108,22 @@ nav{
     color: white;
     font-weight: 600;
 }
-/* .separation{
 
+.get_started button{
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    width: 220px;
+    padding: 15px 0 15px 0;
+    border-radius: 5px;
+    gap: 15px;
+}
+/* .separation{
     /* border: 2px solid white; */
 
     /* width: 100%;
