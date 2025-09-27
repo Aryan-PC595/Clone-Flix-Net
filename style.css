@@ -43,7 +43,33 @@ nav{
     margin: auto;
     display: flex;
     align-items: center;
-    height: 112px;
+    height: 100px;
+}
+#nav_buttons{
+    display: flex;
+    gap: 10px;
+}
+#English_button{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    border: 1px solid #ffffff46;
+    border-radius: 4px;
+    padding: 4px 3px 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#English_button img{
+    padding: 0px 5px 0px 5px;
+}
+#Sign_In_button{
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    padding: 0px 12px 0px 12px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
 }
 .text-hero{
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
@@ -92,21 +118,24 @@ nav{
 .email_and_get-started{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .email_input{
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.386);
     background-color: rgba(0, 0, 0, 0.409);
-    width: 100%;
+    width: 50%;
     justify-items: left;
-    padding: 10px 22px 8px;
+    padding: 10px 22px 5px;
     border-radius: 5px;
 }
 .email_input input{
-    width: 200%;
+    width: 150%;
     background: none;
     border: none;
     color: white;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .get_started button{
@@ -120,6 +149,7 @@ nav{
     line-height: 24px;
     width: 220px;
     padding: 15px 0 15px 0;
+    border: none;
     border-radius: 5px;
     gap: 15px;
 }
